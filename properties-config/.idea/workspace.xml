@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e13395d2-f8d9-43d0-bbef-28ca4b186ecb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YpPQKEiXmXoEXNctMtunRk1smv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (3)">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.istudy.group.Application" />
+      <module name="properties-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.istudy.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="istudy-group-swagger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.istudy.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.istudy.group.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="istudy-group-swagger (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.istudy.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.istudy.group.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="istudy-group-response" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.istudy.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.istudy.group.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="istudy-group-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.istudy.group.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertiesConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="properties-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="properties.config.PropertiesConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (3)" />
+        <item itemvalue="Spring Boot.Application (2)" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.11319149" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e13395d2-f8d9-43d0-bbef-28ca4b186ecb" name="Default Changelist" comment="" />
+      <created>1583636544187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583636544187</updated>
+      <workItem from="1583636552180" duration="7693000" />
+      <workItem from="1583655570644" duration="9112000" />
+      <workItem from="1583764237555" duration="798000" />
+      <workItem from="1583765044231" duration="341000" />
+      <workItem from="1583849452762" duration="2656000" />
+      <workItem from="1584018829567" duration="14000" />
+      <workItem from="1584021459478" duration="1178000" />
+      <workItem from="1584023287890" duration="3897000" />
+      <workItem from="1584155870971" duration="2442000" />
+      <workItem from="1584166595185" duration="14000" />
+      <workItem from="1584172280023" duration="1286000" />
+      <workItem from="1584763488615" duration="1187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="487" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584149753138">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="487" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1584149753138" />
+    <state x="828" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584153260179">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="828" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1584153260179" />
+    <state width="1041" height="133" key="GridCell.Tab.0.bottom" timestamp="1584153631361">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584153631361" />
+    <state width="1041" height="133" key="GridCell.Tab.0.center" timestamp="1584153631360">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584153631360" />
+    <state width="1041" height="133" key="GridCell.Tab.0.left" timestamp="1584153631360">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584153631360" />
+    <state width="1041" height="133" key="GridCell.Tab.0.right" timestamp="1584153631361">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584153631361" />
+    <state width="1041" height="133" key="GridCell.Tab.1.bottom" timestamp="1584153631362">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584153631362" />
+    <state width="1041" height="133" key="GridCell.Tab.1.center" timestamp="1584153631362">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1584153631362" />
+    <state width="1041" height="133" key="GridCell.Tab.1.left" timestamp="1584153631361">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1584153631361" />
+    <state width="1041" height="133" key="GridCell.Tab.1.right" timestamp="1584153631362">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1041" height="133" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1584153631362" />
+    <state x="295" y="65" key="SettingsEditor" timestamp="1584774971149">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="295" y="65" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584774971149" />
+    <state x="416" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1584018837309">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="416" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1584018837309" />
+    <state x="685" y="75" width="689" height="708" key="find.popup" timestamp="1584151767930">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="685" y="75" width="689" height="708" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1584151767930" />
+    <state x="194" y="313" key="new project wizard" timestamp="1584153629871">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="194" y="313" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1584153629871" />
+  </component>
+</project>

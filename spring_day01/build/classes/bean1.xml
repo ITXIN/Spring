@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- <bean id="user" class="cn.itcast.ioc.User">
+        <meta key="cacheName" value="foo"/>
+        <property name="name" value="Rick"/>
+    </bean> -->
+   <!--  <bean id="bean2" class="cn.itcast.bean.Bean2Factory" factory-method="getBean2">
+     
+    </bean> -->
+     <!-- <bean id="user" class="cn.itcast.ioc.User">
+        <constructor-arg name="userName" value="小米"></constructor-arg>
+        <property name="sex" value="男"></property>
+    </bean> -->
+    
+    <bean id="userDao" class="cn.itcast.ioc.UserDao">
+    </bean>
+    
+    <bean id="userService" class="cn.itcast.ioc.UserService">
+    	<property name="userDao" ref="userDao"></property>
+    </bean>
+
+</beans>
