@@ -9,8 +9,10 @@ import org.omg.CORBA.portable.ResponseHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.bind.BindResult;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -99,17 +101,23 @@ public class UserController {
     }
 
     //数据校验
+//    @PostMapping("/validated")
+//    public List<String> addUser(@RequestBody @Validated User user, BindingResult result) {
+//        List<String> errors = new ArrayList<>();
+//        if (result.hasErrors()) {
+//            List<ObjectError> allErrors = result.getAllErrors();
+//            for (ObjectError error:allErrors) {
+//                errors.add(error.getDefaultMessage());
+//            }
+//        }
+//        log.info("-----adduser: {}",errors);
+//        return errors;
+//    }
+
+    // 由于GlobalExceptionHandler 参数验证是捕获MethodArgumentNotValidException，所以参数要加上MethodArgumentNotValidException
     @PostMapping("/validated")
-    public List<String> addUser(@RequestBody @Validated User user, BindingResult result) {
-        List<String> errors = new ArrayList<>();
-        if (result.hasErrors()) {
-            List<ObjectError> allErrors = result.getAllErrors();
-            for (ObjectError error:allErrors) {
-                errors.add(error.getDefaultMessage());
-            }
-        }
-        log.info("-----adduser: {}",configProperties.getPhone());
-        return errors;
+    public void addUser(@RequestBody @Validated User user, MethodArgumentNotValidException e) {
+
     }
 
     public void createUser1(@RequestBody @Validated User user) {

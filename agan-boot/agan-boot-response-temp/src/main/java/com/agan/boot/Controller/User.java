@@ -20,12 +20,12 @@ import java.util.Date;
 public class User {
 
     private Integer id;
-    @NotEmpty(message = "phone")
-    @Length(min = 6,max = 12,message = "{user.name.size}")
+    @NotEmpty(message = "用户名不能为空")
+    @Length(min = 6,max = 12,message = "用户名长度介于6到10个字符之间")
     private String name;
 
-    @NotEmpty(message = "${user.password.notnull}")
-    @Length(min = 6,message = "{user.password.size}")
+    @NotEmpty(message = "密码不能为空")
+    @Length(min = 6,message = "密码长度介于6到10个字符之间")
     private String password;
 
     @Email(message = "请输入正确的邮箱")

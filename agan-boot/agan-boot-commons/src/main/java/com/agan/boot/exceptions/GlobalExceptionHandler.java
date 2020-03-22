@@ -4,12 +4,15 @@ import com.agan.boot.enums.ResultCode;
 import com.agan.boot.response.ErrorResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @RestControllerAdvice
 @Slf4j
@@ -35,6 +38,26 @@ public class GlobalExceptionHandler {
         ErrorResult errorResult = ErrorResult.handlerBusinessException(e);
         log.warn("URL:{},业务异常",request.getRequestURI(),errorResult);
         return  errorResult;
+    }
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public ErrorResult handleMethodArgumentNotValidException(MethodArgumentNotValidException e,HttpServletRequest request){
+        String msgs = this.handle(e.getBindingResult().getFieldErrors());
+        ErrorResult error = ErrorResult.fail(ResultCode.PARAM_IS_ERROR,e,msgs);
+        log.warn("URL:{},参数校验异常{}",request.getRequestURI(),msgs);
+        return error;
+    }
+
+    private String handle(List<FieldError> fieldErrors) {
+        StringBuffer sb = new StringBuffer();
+        for (FieldError obj:fieldErrors){
+            sb.append(obj.getField());
+            sb.append("=[");
+            sb.append(obj.getDefaultMessage());
+            sb.append("]");
+        }
+        return  sb.toString();
     }
 
 }
