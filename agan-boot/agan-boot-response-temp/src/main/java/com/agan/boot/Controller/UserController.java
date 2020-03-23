@@ -74,7 +74,7 @@ public class UserController {
     @PostMapping("/hello")
     public String hello(@RequestBody User user){
         log.info("----hello1");
-        return user.getName() + " " + user.getPassword();
+        return user.getUsername() + " " + user.getPassword();
     }
     // 对象
     /**
@@ -84,7 +84,7 @@ public class UserController {
      * */
     @PostMapping(value = "/create")
     public User createUser(@RequestBody User user) {
-        log.info("---name:{},pass:{}",user.getName(),user.getPassword());
+        log.info("---name:{},pass:{}",user.getUsername(),user.getPassword());
         this.createUser1(user);
         return user;
     }
@@ -96,7 +96,7 @@ public class UserController {
     public String createUserJson(@RequestBody List<User> users) {
         String result = "";
         for (User user:users) {
-            result += user.getName() + " " + user.getPassword() + "\n";
+            result += user.getUsername() + " " + user.getPassword() + "\n";
         }
         return result;
     }
@@ -122,13 +122,29 @@ public class UserController {
     // 由于GlobalExceptionHandler 参数验证是捕获MethodArgumentNotValidException，所以参数要加上MethodArgumentNotValidException
     @PostMapping("/login")
     public String login(@RequestBody @Validated User user, MethodArgumentNotValidException e) {
-        log.info("----name:{},password:{}",user.getName(),user.getPassword());
-        if (user.getName().equals("admin") && user.getPassword().equals("147258")) {
+        log.info("----name:{},password:{}",user.getUsername(),user.getPassword());
+        if (user.getUsername().equals("admin") && user.getPassword().equals("147258")) {
             return "登录成功";
         }else {
             throw new BusinessException(ResultCode.USER_LOGIN_ERROR);
         }
+    }
 
+    // username
+    @PostMapping("/info")
+    public User getUserInfo(@RequestBody Map params, MethodArgumentNotValidException e) {
+        log.info("----getUserInfo name:{}",params.get("username"));
+        if (params.get("username").equals("admin")) {
+            User user = new User();
+            user.setUsername(params.get("username").toString());
+            user.setAvatar("https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif");
+            user.setRoles("admin");
+            user.setToken("admin");
+            user.setName("Super Admin!");
+            return user;
+        }else {
+            throw new BusinessException(ResultCode.USER_NOT_FIND);
+        }
     }
 
     // 路径传参数
@@ -197,7 +213,6 @@ public class UserController {
         User user = new User();
 //        user.setId(id);
         String temp = "temp01";
-        user.setName(temp);
         user.setPassword(temp);
         int n = rand.nextInt(2);
 //        user.setSex((byte)n);
