@@ -9,11 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="agan-boot-response" />
         <module name="agan-boot-config (1)" />
-        <module name="agan-boot" />
-        <module name="agan-boot-response-temp" />
-        <module name="agan-boot-config" />
         <module name="agan-boot-helloword" />
         <module name="agan-boot-commons" />
+        <module name="agan-boot-config" />
+        <module name="agan-boot-response-temp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,7 +28,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="agan-boot" options="-parameters" />
+      <module name="agan-boot" options="" />
       <module name="agan-boot-commons" options="-parameters" />
       <module name="agan-boot-config" options="-parameters" />
       <module name="agan-boot-config (1)" options="-parameters" />

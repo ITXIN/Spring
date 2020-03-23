@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Configuration
 @Component
 @ConfigurationProperties(prefix = "config", ignoreUnknownFields = false)
-@PropertySource(value = "config.properties")
+//@PropertySource(value = "config.properties")
 @Data
 public class ConfigProperties {
     private String phone;

@@ -2,6 +2,7 @@ package com.agan.boot.Controller;
 
 import com.agan.boot.enums.ResultCode;
 import com.agan.boot.exceptions.BusinessException;
+import com.agan.boot.response.ErrorResult;
 import com.agan.boot.response.Result;
 import com.agan.boot.utils.ConfigProperties;
 import lombok.extern.slf4j.Slf4j;
@@ -100,6 +101,10 @@ public class UserController {
         return result;
     }
 
+    public void createUser1(@RequestBody @Validated User user) {
+
+    }
+
     //数据校验
 //    @PostMapping("/validated")
 //    public List<String> addUser(@RequestBody @Validated User user, BindingResult result) {
@@ -115,12 +120,14 @@ public class UserController {
 //    }
 
     // 由于GlobalExceptionHandler 参数验证是捕获MethodArgumentNotValidException，所以参数要加上MethodArgumentNotValidException
-    @PostMapping("/validated")
-    public void addUser(@RequestBody @Validated User user, MethodArgumentNotValidException e) {
-
-    }
-
-    public void createUser1(@RequestBody @Validated User user) {
+    @PostMapping("/login")
+    public String login(@RequestBody @Validated User user, MethodArgumentNotValidException e) {
+        log.info("----name:{},password:{}",user.getName(),user.getPassword());
+        if (user.getName().equals("admin") && user.getPassword().equals("147258")) {
+            return "登录成功";
+        }else {
+            throw new BusinessException(ResultCode.USER_LOGIN_ERROR);
+        }
 
     }
 

@@ -21,7 +21,7 @@ public class User {
 
     private Integer id;
     @NotEmpty(message = "用户名不能为空")
-    @Length(min = 6,max = 12,message = "用户名长度介于6到10个字符之间")
+    @Length(min = 5,max = 12,message = "用户名长度介于6到10个字符之间")
     private String name;
 
     @NotEmpty(message = "密码不能为空")

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ErrorResult {
-    public Integer status;// 异常状态码
+    public String status;// 异常状态码
     public String message;//用户看得见得异常，例如用户名重复
     public String exception;// 异常的名字
 
@@ -28,7 +28,7 @@ public class ErrorResult {
 
     public  static  ErrorResult handlerBusinessException(BusinessException e){
         ErrorResult errorResult = new ErrorResult();
-        errorResult.setStatus(e.getCode());
+        errorResult.setStatus(e.getCode().toString());
         errorResult.setMessage(e.getMessage());
         errorResult.setException(e.getClass().getName());
         return errorResult;

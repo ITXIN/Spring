@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class Result<T> {
-    private  Integer status;
+    private  String status;
 
     private  String desc;
 
@@ -31,7 +31,7 @@ public class Result<T> {
     }
 
     // 失败,指定status，desc
-    public static Result fail(Integer status, String desc) {
+    public static Result fail(String status, String desc) {
         Result result = new Result();
         result.setStatus(status);
         result.setDesc(desc);
