@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@SuppressWarnings("unchecked")
 public class Result<T> {
     private  String status;
 
