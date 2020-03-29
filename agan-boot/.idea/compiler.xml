@@ -9,10 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="agan-boot-response" />
         <module name="agan-boot-config (1)" />
-        <module name="agan-boot-helloword" />
-        <module name="agan-boot-commons" />
-        <module name="agan-boot-config" />
         <module name="agan-boot-response-temp" />
+        <module name="agan-boot-commons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

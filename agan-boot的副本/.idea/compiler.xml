@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="agan-boot-response" />
+        <module name="agan-boot-config (1)" />
+        <module name="agan-boot-helloword" />
+        <module name="agan-boot-commons" />
+        <module name="agan-boot-config" />
+        <module name="agan-boot-response-temp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="agan-boot" target="1.8" />
+      <module name="agan-boot-commons" target="1.8" />
+      <module name="agan-boot-config" target="1.8" />
+      <module name="agan-boot-config (1)" target="1.8" />
+      <module name="agan-boot-helloword" target="1.8" />
+      <module name="agan-boot-response" target="1.8" />
+      <module name="agan-boot-response-temp" target="1.8" />
+      <module name="agan-boot-response-temp (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="agan-boot" options="" />
+      <module name="agan-boot-commons" options="-parameters" />
+      <module name="agan-boot-config" options="-parameters" />
+      <module name="agan-boot-config (1)" options="-parameters" />
+      <module name="agan-boot-helloword" options="-parameters" />
+      <module name="agan-boot-response" options="-parameters" />
+      <module name="agan-boot-response-temp" options="-parameters" />
+      <module name="agan-boot-response-temp (1)" options="-parameters" />
+    </option>
+  </component>
+</project>

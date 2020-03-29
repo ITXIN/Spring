@@ -41,14 +41,9 @@
     </dependencies>
     <modules>
         <module>
-            agan-boot-config
-        </module>
-        <module>
             agan-boot-commons
         </module>
-        <module>
-            agan-boot-helloword
-        </module>
+
         <module>
             agan-boot-response-temp
         </module>

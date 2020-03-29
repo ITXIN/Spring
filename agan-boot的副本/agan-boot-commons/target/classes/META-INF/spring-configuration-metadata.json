@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "config",
+      "type": "com.agan.boot.utils.ConfigProperties",
+      "sourceType": "com.agan.boot.utils.ConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config.phone",
+      "type": "java.lang.String",
+      "sourceType": "com.agan.boot.utils.ConfigProperties"
+    },
+    {
+      "name": "config.wife",
+      "type": "java.lang.String",
+      "sourceType": "com.agan.boot.utils.ConfigProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e6183e7-4cf0-4488-a799-eadce84f5c80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agan-boot-commons/src/main/java/com/agan/boot/response/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/agan-boot-commons/src/main/java/com/agan/boot/response/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agan-boot-commons/target/classes/com/agan/boot/response/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/agan-boot-commons/target/classes/com/agan/boot/response/Result.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="agan-boot" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z6JoWeU0PHl69GkVfz1fJ2hPtI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/agan-boot-response-temp/src/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.22271389" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/agan-boot-response-temp/src/lib" />
+      <recent name="$PROJECT_DIR$/agan-boot-commons/src/main/java/com/agan/boot/resources" />
+      <recent name="$PROJECT_DIR$/agan-boot-response-temp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/agan-boot-response-temp" />
+      <recent name="$PROJECT_DIR$/agan-boot-response-temp/src/main/resources" />
+      <recent name="$PROJECT_DIR$/agan-boot-commons/src/main/resources" />
+      <recent name="$PROJECT_DIR$/agan-boot-commons/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (3)">
+    <configuration name="AganBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="agan-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.agan.boot.AganBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="agan-boot-commons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agan.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.agan.boot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="agan-boot-helloword" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agan.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.agan.boot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="agan-boot-response-temp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agan.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.agan.boot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="agan-boot-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.agan.boot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (3)" />
+        <item itemvalue="Spring Boot.Application (2)" />
+        <item itemvalue="Spring Boot.Application (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.08057676" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e6183e7-4cf0-4488-a799-eadce84f5c80" name="Default Changelist" comment="" />
+      <created>1584153785159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584153785159</updated>
+      <workItem from="1584153787698" duration="4228000" />
+      <workItem from="1584158137408" duration="1223000" />
+      <workItem from="1584164268177" duration="1572000" />
+      <workItem from="1584166590481" duration="31769000" />
+      <workItem from="1584749447060" duration="143000" />
+      <workItem from="1584749609367" duration="348000" />
+      <workItem from="1584749979444" duration="14020000" />
+      <workItem from="1584790925451" duration="29625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="214" y="23" key="#Notifications" timestamp="1584749479866">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="214" y="23" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1584749479866" />
+    <state x="270" y="94" width="961" height="666" key="#Project_Structure" timestamp="1584168653572">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="270" y="94" width="961" height="666" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1584168653572" />
+    <state x="353" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1585184626478">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="353" y="87" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1585184626478" />
+    <state x="537" y="360" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584155725272">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="537" y="360" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1584155725272" />
+    <state x="557" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584776848729">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="557" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1584776848729" />
+    <state x="479" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584930288968">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="479" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1584930288968" />
+    <state width="1362" height="243" key="GridCell.Tab.0.bottom" timestamp="1585364801166">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1362" height="243" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585364801166" />
+    <state width="1362" height="243" key="GridCell.Tab.0.center" timestamp="1585364801165">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1362" height="243" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585364801165" />
+    <state width="1362" height="243" key="GridCell.Tab.0.left" timestamp="1585364801165">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1362" height="243" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585364801165" />
+    <state width="1362" height="243" key="GridCell.Tab.0.right" timestamp="1585364801166">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1362" height="243" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585364801166" />
+    <state width="1225" height="496" key="GridCell.Tab.1.bottom" timestamp="1585364801154">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1225" height="496" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585364801154" />
+    <state width="1225" height="496" key="GridCell.Tab.1.center" timestamp="1585364801153">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1225" height="496" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1585364801153" />
+    <state width="1225" height="496" key="GridCell.Tab.1.left" timestamp="1585364801153">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1225" height="496" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1585364801153" />
+    <state width="1225" height="496" key="GridCell.Tab.1.right" timestamp="1585364801154">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1225" height="496" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1585364801154" />
+    <state width="910" height="310" key="GridCell.Tab.2.bottom" timestamp="1584849551349">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="910" height="310" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584849551349" />
+    <state width="910" height="310" key="GridCell.Tab.2.center" timestamp="1584849551348">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="910" height="310" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1584849551348" />
+    <state width="910" height="310" key="GridCell.Tab.2.left" timestamp="1584849551348">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="910" height="310" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1584849551348" />
+    <state width="910" height="310" key="GridCell.Tab.2.right" timestamp="1584849551348">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="910" height="310" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1584849551348" />
+    <state x="189" y="119" key="Maven.ArtifactSearchDialog" timestamp="1585183772608">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="189" y="119" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1585183772608" />
+    <state x="270" y="80" key="Registry" timestamp="1584751224061">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="270" y="80" key="Registry/0.23.1440.877@0.23.1440.877" timestamp="1584751224061" />
+    <state x="179" y="23" width="1146" height="877" key="SettingsEditor" timestamp="1584775911685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="179" y="23" width="1146" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584775911685" />
+    <state x="277" y="130" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584263897889">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="277" y="130" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.877@0.23.1440.877" timestamp="1584263897888" />
+    <state x="388" y="272" width="895" height="586" key="new project wizard" timestamp="1584154152548">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="388" y="272" width="895" height="586" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1584154152548" />
+    <state x="0" y="146" key="refactoring.ChangeSignatureDialog" timestamp="1584848995991">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="146" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1584848995991" />
+    <state x="387" y="180" width="670" height="676" key="search.everywhere.popup" timestamp="1584798765157">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="387" y="180" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1584798765157" />
+  </component>
+</project>

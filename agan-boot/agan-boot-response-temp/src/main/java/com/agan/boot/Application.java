@@ -23,31 +23,19 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-//    @Bean
-//    public ServletWebServerFactory servletContainer() {
-//        TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();
-//        tomcat.addAdditionalTomcatConnectors(createStandardConnector()); // 添加http
-//        return tomcat;
-//    }
-//
-//    // 配置http，.pfx 要放在根目录，聚合工程放在父根目录
-//    private Connector createStandardConnector() {
-//        Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
-//        connector.setPort(443);
-//        return connector;
-//    }
-
     @Bean
     public Connector connector() {
+        //HTTP/1.1
         Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
+//        Connector connector = new Connector("HTTP/1.1");
         /*
          * 当我们访问http://localhost:8080的时候系统会自动重定向到https://localhost:8033这个地址上
          * HTTP端口为：80
          * HTTPS端口为：443
          * 假如我们配置了域名，那么http://www.test.com和https://www.test.com都可实现访问
          */
-        connector.setPort(80);
-        connector.setRedirectPort(443);
+        connector.setPort(616);
+        connector.setRedirectPort(8843);
         connector.setScheme("http");
         connector.setSecure(false);
         return connector;
