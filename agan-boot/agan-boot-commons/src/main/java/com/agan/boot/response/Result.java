@@ -14,7 +14,7 @@ public class Result<T> {
 
     private  String desc;
 
-    private  T data;
+    private  T body;
 
     // 成功创建result 没有数据
     public static Result suc() {
@@ -27,7 +27,7 @@ public class Result<T> {
     public static Result suc(Object data) {
         Result result = new Result();
         result.setResultCode(ResultCode.SUCCESS);
-        result.setData(data);
+        result.setBody(data);
         return result;
     }
 
