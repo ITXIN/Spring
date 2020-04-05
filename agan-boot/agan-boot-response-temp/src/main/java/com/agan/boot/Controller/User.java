@@ -14,6 +14,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -39,10 +40,21 @@ public class User {
     private Date updateTime;
     private Date createTime;
 
-    private String roles;
+    private String[] roles;
     private String token;
     private String introduction;
     private String avatar;
     private String name;//昵称
+
+    public static User createrUser(String username) {
+        User user = new User();
+        user.setUsername(username);
+        user.setAvatar("https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif");
+        String[] s = {"admin", "editor"};
+        user.setRoles(s);
+        user.setToken("1234566");
+        user.setName("Super Admin!");
+        return user;
+    }
 
 }

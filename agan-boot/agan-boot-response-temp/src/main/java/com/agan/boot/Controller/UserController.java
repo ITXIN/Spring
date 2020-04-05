@@ -121,27 +121,21 @@ public class UserController {
 
     // 由于GlobalExceptionHandler 参数验证是捕获MethodArgumentNotValidException，所以参数要加上MethodArgumentNotValidException
     @PostMapping("/login")
-    public String login(@RequestBody @Validated User user, MethodArgumentNotValidException e) {
+    public Object login(@RequestBody @Validated User user, MethodArgumentNotValidException e) {
         log.info("----name:{},password:{}",user.getUsername(),user.getPassword());
         if (user.getUsername().equals("admin") && user.getPassword().equals("147258")) {
-            return "登录成功";
+            return User.createrUser(user.getUsername().toString());
         }else {
             throw new BusinessException(ResultCode.USER_LOGIN_ERROR);
         }
     }
 
     // username
-    @PostMapping("/info")
-    public User getUserInfo(@RequestBody Map params, MethodArgumentNotValidException e) {
-        log.info("----getUserInfo name:{}",params.get("username"));
-        if (params.get("username").equals("admin")) {
-            User user = new User();
-            user.setUsername(params.get("username").toString());
-            user.setAvatar("https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif");
-            user.setRoles("admin");
-            user.setToken("admin");
-            user.setName("Super Admin!");
-            return user;
+    @GetMapping("/info")
+    public Object getUserInfo(@RequestParam Map<String,Object> params, MethodArgumentNotValidException e) {
+        log.info("----getUserInfo token:{}",params.values());
+        if (params.get("token").toString().length()>0) {
+            return User.createrUser(params.get("token").toString());
         }else {
             throw new BusinessException(ResultCode.USER_NOT_FIND);
         }
