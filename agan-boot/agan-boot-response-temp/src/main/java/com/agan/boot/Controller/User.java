@@ -46,7 +46,7 @@ public class User {
     private String avatar;
     private String name;//昵称
 
-    public static User createrUser(String username) {
+    public static User createUser(String username) {
         User user = new User();
         user.setUsername(username);
         user.setAvatar("https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif");

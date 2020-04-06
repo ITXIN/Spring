@@ -17,10 +17,6 @@ public class TransactionController {
     @GetMapping("/list")
     public Object getTransactionList(@RequestParam Map<String,Object> params, MethodArgumentNotValidException e) {
         log.info("----transaction query:{}",params.values());
-//        if (params.get("query").toString().length()>0) {
-        return TransactionList.createrTransactionList();
-//        }else {
-//            throw new BusinessException(ResultCode.USER_NOT_FIND);
-//        }
+        return TransactionList.createTransactionList();
     }
 }

@@ -124,10 +124,16 @@ public class UserController {
     public Object login(@RequestBody @Validated User user, MethodArgumentNotValidException e) {
         log.info("----name:{},password:{}",user.getUsername(),user.getPassword());
         if (user.getUsername().equals("admin") && user.getPassword().equals("147258")) {
-            return User.createrUser(user.getUsername().toString());
+            return User.createUser(user.getUsername().toString());
         }else {
             throw new BusinessException(ResultCode.USER_LOGIN_ERROR);
         }
+    }
+
+    @PostMapping("/logout")
+    public Object logout(MethodArgumentNotValidException e) {
+        log.info("----logout");
+        return "success";
     }
 
     // username
@@ -135,7 +141,7 @@ public class UserController {
     public Object getUserInfo(@RequestParam Map<String,Object> params, MethodArgumentNotValidException e) {
         log.info("----getUserInfo token:{}",params.values());
         if (params.get("token").toString().length()>0) {
-            return User.createrUser(params.get("token").toString());
+            return User.createUser(params.get("token").toString());
         }else {
             throw new BusinessException(ResultCode.USER_NOT_FIND);
         }
